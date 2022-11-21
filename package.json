@@ -1,0 +1,67 @@
+{
+  "name": "dci-pilet",
+  "version": "7.0.0",
+  "description": "",
+  "keywords": [
+    "pilet"
+  ],
+  "devDependencies": {
+    "@dbeining/react-atom": "4.1.21",
+    "@libre/atom": "1.3.3",
+    "@types/node": "latest",
+    "@types/react": "^17",
+    "@types/react-dom": "^17",
+    "@types/react-router": "^5",
+    "@types/react-router-dom": "^5",
+    "history": "4.10.1",
+    "path-to-regexp": "1.8.0",
+    "piral-appshell": "file:..\\piral-appshell\\dist\\emulator\\piral-appshell-1.0.0.tgz",
+    "piral-cli": "^0.14.32",
+    "piral-cli-webpack": "0.14.32",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router": "5.3.4",
+    "react-router-dom": "5.3.4",
+    "tslib": "2.4.0",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "start": "pilet debug",
+    "build": "pilet build",
+    "upgrade": "pilet upgrade"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "source": "src/index.tsx",
+  "piral": {
+    "comment": "Keep this section to use the Piral CLI.",
+    "name": "piral-appshell"
+  },
+  "peerDependencies": {
+    "@dbeining/react-atom": "*",
+    "@libre/atom": "*",
+    "history": "*",
+    "path-to-regexp": "*",
+    "piral-appshell": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-router": "*",
+    "react-router-dom": "*",
+    "tslib": "*"
+  },
+  "peerModules": [],
+  "dependencies": {
+    "@apollo/client": "^3.7.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.14",
+    "@mui/material": "^5.10.14",
+    "formik": "^2.2.9",
+    "graphql": "^16.6.0",
+    "piral-cli-webpack5": "^0.15.0",
+    "react-intl": "^6.2.1",
+    "yup": "^0.32.11"
+  }
+}
